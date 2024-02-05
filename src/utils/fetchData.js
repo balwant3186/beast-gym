@@ -20,6 +20,14 @@ export const exerciseOptions = {
   },
 };
 
+export const youtubeOptions = {
+  method: "GET",
+  headers: {
+    "X-RapidAPI-Key": "c1199fe87emsh21d5edfc4920355p18a9a4jsn7c37e917aaea",
+    "X-RapidAPI-Host": "youtube-search-and-download.p.rapidapi.com",
+  },
+};
+
 export const fetchData = async (url, options, addLimit) => {
   if (addLimit) {
     url = `${url}?${queryString}`;
