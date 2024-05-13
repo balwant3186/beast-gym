@@ -2,7 +2,7 @@ const params = {
   limit: "50",
 };
 
-const X_RAPID_API_KEY = "4e841855cbmshc7720ac42863df1p1bfa6cjsndfd3ad0e5ad7"
+const X_RAPID_API_KEY = "9e56009622msh59ddf333c7764eap105639jsn8e99936de32f"
 
 export const getQueryString = (params) => {
   return Object.keys(params)
